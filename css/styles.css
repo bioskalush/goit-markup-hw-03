@@ -1,0 +1,233 @@
+/* Основний колір  #212121*/
+/* Додатковий колір тексту #757575 */
+/* Колір акценту #2196F3 */
+/* Колір фону блоків #2F303A */
+/* Колір шапки #FFFFFF */
+/* Колір другого блоку фону #E5E5E5 */
+
+:root {
+  --primary-text-color: #212121;
+  --additional-text-color: #757575;
+  --footer-adr-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --footer-color: #2f303a;
+  --bg-color: #ffffff;
+  --bg-section-color: #f5f4fa;
+  --section-color: ##f5f4fa;
+  --logo-color: #000000;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--bg-color);
+  font-family: "Roboto", "Helvetica Neue", "Verdana", "Tahoma", sans-serif;
+}
+
+/* Спільні стилі */
+.list {
+  list-style: none;
+}
+
+.section-title {
+  color: var(--primary-text-color);
+  font-size: 36px;
+  line-height: 1.17;
+  font-weight: 700;
+}
+
+/* Шапка сайту */
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.web-logo {
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  font-family: "Raleway";
+  color: var(--logo-color);
+}
+.text-web {
+  color: var(--accent-color);
+}
+.web-logo:hover,
+.web-logo:focus {
+  color: var(--primary-text-color);
+}
+
+.page-nav .nav-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.contacts a {
+  color: var(--additional-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* Ховер і фокус всіх кнопок та посилань на сайті */
+.page-nav a:hover,
+.page-nav a:focus,
+.contacts a:hover,
+.contacts a:focus,
+.footer-contacts:focus,
+.footer-contacts:hover,
+.footer-contacts.address:focus,
+.footer-contacts.address:hover,
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--accent-color);
+}
+.page-nav .nav-link.port,
+.page-nav .nav-link.home,
+.page-nav .nav-link.cont {
+  color: var(--accent-color);
+}
+
+/* Блок Герой  */
+.block-hero {
+  background-color: var(--footer-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: var(--bg-color);
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+  border-radius: 4px;
+  border-color: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.87;
+  font-weight: 700;
+}
+
+.hero-button-text {
+  color: var(--bg-color);
+}
+
+/* Блок Бізнес */
+
+.benefits-title {
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-text-color);
+}
+
+.benefits-parafrag {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--additional-text-color);
+}
+
+/* Блок чим ми займаємося */
+.block-works .section-block {
+}
+
+/* Наша команда */
+
+.command-list li {
+  background-color: var(--bg-color);
+}
+
+.commands-block {
+  background-color: var(--bg-section-color);
+}
+
+.commands-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--primary-text-color);
+}
+
+.commands-paragraf {
+  color: var(--additional-text-color);
+  line-height: 1.17;
+}
+
+/* Підвал */
+.footer {
+  background-color: var(--footer-color);
+}
+
+.address-styles {
+  font-style: normal;
+}
+
+/* Оформлення ЛОГО у пілвалі */
+.footer-logo {
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  font-family: "Raleway";
+  color: #000000;
+}
+
+.text-studio-footer {
+  color: var(--bg-color);
+}
+
+/* Контакти у підвалі */
+.footer-contacts {
+  color: var(--footer-adr-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.footer-contacts.address {
+  color: var(--bg-color);
+}
+
+/* Сторінка портфоліо */
+/* Кнопки фільтрації портфоліо */
+.portfolio-button {
+  background-color: #f5f4fa;
+  border-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.62;
+  font-weight: 500;
+}
+
+/* .portfolio-button:hover,
+.portfolio-button:active {
+  background-color: var(--accent-color);
+  border-color: transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+} */
+
+/* .portfolio-button-text:hover,
+.portfolio-button-text:active {
+  color: var(--bg-color);
+} */
+
+/* Секція зображень портфоліо */
+
+.portfolio-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-list {
+  background-color: var(--bg-color);
+  /* border: 1px solid #eeeeee; */
+}
