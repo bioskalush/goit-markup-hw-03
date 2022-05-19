@@ -68,7 +68,6 @@ ul {
 /* Шапка сайту */
 .header {
   border-bottom: 1px solid #ececec;
-  outline: 2px solid var(--accent-color);
   border: 1px solid #ececec;
 }
 
@@ -265,8 +264,12 @@ ul {
   margin-top: 9px;
 }
 
-/* Сторінка портфоліо */
+/* -----------------------------------Сторінка портфоліо--------------------------------------- */
 /* Кнопки фільтрації портфоліо */
+.portfolio-buttons-box {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
 .portfolio-button {
   background-color: #f5f4fa;
   border-color: transparent;
@@ -276,6 +279,7 @@ ul {
   font-size: 16px;
   line-height: 1.62;
   font-weight: 500;
+  outline: 2px solid var(--accent-color);
 }
 
 /* .portfolio-button:hover,
@@ -291,6 +295,10 @@ ul {
   color: var(--bg-color);
 } */
 
+.portfolio {
+  margin-bottom: 94px;
+}
+
 /* Секція зображень портфоліо */
 
 .portfolio-title {
@@ -298,9 +306,11 @@ ul {
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
+  outline: 2px solid var(--accent-color);
 }
 
 .portfolio-list {
   background-color: var(--bg-color);
   /* border: 1px solid #eeeeee; */
+  outline: 2px solid var(--accent-color);
 }
