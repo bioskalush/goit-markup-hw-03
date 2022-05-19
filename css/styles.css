@@ -21,23 +21,55 @@ body {
   color: var(--primary-text-color);
   background-color: var(--bg-color);
   font-family: "Roboto", "Helvetica Neue", "Verdana", "Tahoma", sans-serif;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul {
+  margin: 0 auto;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* Спільні стилі */
 .list {
   list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .section-title {
+  margin-bottom: 50px;
   color: var(--primary-text-color);
+  text-align: center;
   font-size: 36px;
   line-height: 1.17;
   font-weight: 700;
+  outline: 2px solid var(--accent-color);
 }
 
 /* Шапка сайту */
 .header {
   border-bottom: 1px solid #ececec;
+  outline: 2px solid var(--accent-color);
+  border: 1px solid #ececec;
 }
 
 .web-logo {
@@ -60,6 +92,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   text-decoration: none;
+  outline: 2px solid var(--accent-color);
 }
 
 .contacts a {
@@ -67,6 +100,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   text-decoration: none;
+  outline: 2px solid var(--accent-color);
 }
 
 /* Ховер і фокус всіх кнопок та посилань на сайті */
@@ -91,17 +125,25 @@ body {
 /* Блок Герой  */
 .block-hero {
   background-color: var(--footer-color);
+  outline: 2px solid var(--accent-color);
+  margin-bottom: 94px;
 }
 
 .hero-title {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
+  text-align: center;
   color: var(--bg-color);
+  outline: 2px solid var(--accent-color);
 }
 
 .hero-button {
+  text-align: center;
+  padding: 10px 32px;
+  min-width: 200px;
   background-color: var(--accent-color);
   /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
   border-radius: 4px;
@@ -119,47 +161,70 @@ body {
 
 /* Блок Бізнес */
 
+.block-benefits {
+  margin-bottom: 94px;
+}
+
 .benefits-title {
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
   color: var(--primary-text-color);
+  outline: 2px solid var(--accent-color);
 }
 
 .benefits-parafrag {
+  margin: 0 auto;
+  outline: 2px solid var(--accent-color);
   font-size: 14px;
   line-height: 1.71;
   color: var(--additional-text-color);
 }
 
 /* Блок чим ми займаємося */
-.block-works .section-block {
+.block-works {
+  panding-bottom: 94px;
+  outline: 2px solid var(--accent-color);
 }
 
 /* Наша команда */
+.commands-block {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .command-list li {
   background-color: var(--bg-color);
+  outline: 2px solid var(--accent-color);
 }
 
 .commands-block {
   background-color: var(--bg-section-color);
+  outline: 2px solid var(--accent-color);
 }
 
 .commands-title {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   color: var(--primary-text-color);
+  outline: 2px solid var(--accent-color);
 }
 
 .commands-paragraf {
+  margin-bottom: 30px;
   color: var(--additional-text-color);
   line-height: 1.17;
+  outline: 2px solid var(--accent-color);
 }
 
 /* Підвал */
 .footer {
   background-color: var(--footer-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  outline: 2px solid var(--accent-color);
 }
 
 .address-styles {
@@ -168,11 +233,14 @@ body {
 
 /* Оформлення ЛОГО у пілвалі */
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 26px;
   text-decoration: none;
   font-family: "Raleway";
   color: #000000;
+  outline: 2px solid var(--accent-color);
 }
 
 .text-studio-footer {
@@ -186,10 +254,15 @@ body {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+  outline: 2px solid var(--accent-color);
 }
 
 .footer-contacts.address {
   color: var(--bg-color);
+}
+
+.address-item {
+  margin-top: 9px;
 }
 
 /* Сторінка портфоліо */
