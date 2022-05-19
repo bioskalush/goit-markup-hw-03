@@ -45,6 +45,12 @@ ul {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  outline: 2px solid var(--accent-color);
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* Спільні стилі */
@@ -69,6 +75,11 @@ ul {
 .header {
   border-bottom: 1px solid #ececec;
   border: 1px solid #ececec;
+}
+
+.header-section {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .web-logo {
@@ -125,7 +136,6 @@ ul {
 .block-hero {
   background-color: var(--footer-color);
   outline: 2px solid var(--accent-color);
-  margin-bottom: 94px;
 }
 
 .hero-title {
@@ -161,7 +171,6 @@ ul {
 /* Блок Бізнес */
 
 .block-benefits {
-  margin-bottom: 94px;
 }
 
 .benefits-title {
@@ -182,14 +191,11 @@ ul {
 
 /* Блок чим ми займаємося */
 .block-works {
-  panding-bottom: 94px;
   outline: 2px solid var(--accent-color);
 }
 
 /* Наша команда */
 .commands-block {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .command-list li {
@@ -221,9 +227,13 @@ ul {
 /* Підвал */
 .footer {
   background-color: var(--footer-color);
+
+  outline: 2px solid var(--accent-color);
+}
+
+.footer-section {
   padding-top: 60px;
   padding-bottom: 60px;
-  outline: 2px solid var(--accent-color);
 }
 
 .address-styles {
@@ -267,8 +277,8 @@ ul {
 /* -----------------------------------Сторінка портфоліо--------------------------------------- */
 /* Кнопки фільтрації портфоліо */
 .portfolio-buttons-box {
-  margin-top: 94px;
-  margin-bottom: 50px;
+  /* panding-top: 94px;
+  panding-bottom: 50px; */
 }
 .portfolio-button {
   background-color: #f5f4fa;
@@ -294,10 +304,6 @@ ul {
 .portfolio-button-text:active {
   color: var(--bg-color);
 } */
-
-.portfolio {
-  margin-bottom: 94px;
-}
 
 /* Секція зображень портфоліо */
 
