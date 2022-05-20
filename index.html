@@ -31,13 +31,13 @@
         >
         <nav>
           <ul class="page-nav list">
-            <li>
+            <li class="nav-list">
               <a href="./index.html" class="nav-link home">Студия</a>
             </li>
-            <li>
+            <li class="nav-list">
               <a href="./portfolio.html" class="nav-link">Портфолио</a>
             </li>
-            <li><a href="" class="nav-link">Контакты</a></li>
+            <li class="nav-list"><a href="" class="nav-link">Контакты</a></li>
           </ul>
         </nav>
         <ul class="contacts list">
@@ -50,10 +50,11 @@
         </ul>
       </div>
     </header>
+
     <main>
       <!--Герой-->
       <section class="block-hero">
-        <div class="container section">
+        <div class="section">
           <h1 class="hero-title">
             Эффективные решения <br />
             для вашего бизнеса
@@ -64,6 +65,7 @@
           </button>
         </div>
       </section>
+
       <!--Наші переваги-->
       <section class="block-benefits">
         <div class="container section">
@@ -100,97 +102,94 @@
           </ul>
         </div>
       </section>
+
       <!--Чем мы занимаемся-->
       <section class="block-works">
         <div class="container section">
           <h2 class="section-title">Чем мы занимаемся</h2>
-          <ul class="list">
-            <div class="works-ul">
-              <li class="work-src">
-                <img
-                  src="./images/img1.jpg"
-                  alt="Работа с компютером"
-                  width="370"
-                  height="294"
-                />
-              </li>
-              <li class="work-src">
-                <img
-                  src="./images/img2.jpg"
-                  alt="Работа с телефоном"
-                  width="370"
-                  height="294"
-                />
-              </li>
-              <li class="work-src">
-                <img
-                  src="./images/img3.jpg"
-                  alt="Работа с планшетом"
-                  width="370"
-                  height="294"
-                />
-              </li>
-            </div>
+          <ul class="list works-list">
+            <li class="work-src">
+              <img
+                src="./images/img1.jpg"
+                alt="Работа с компютером"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="work-src">
+              <img
+                src="./images/img2.jpg"
+                alt="Работа с телефоном"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="work-src">
+              <img
+                src="./images/img3.jpg"
+                alt="Работа с планшетом"
+                width="370"
+                height="294"
+              />
+            </li>
           </ul>
         </div>
       </section>
 
       <!--Наша команда-->
-      <section class="commands-block">
-        <div class="container section">
-          <h2 class="section-title">Наша команда</h2>
-          <ul class="list">
-            <div class="command-list">
-              <li>
-                <img
-                  src="./images/comand1.jpg"
-                  alt="Игорь Демьяненко"
-                  width="270"
-                />
-                <h3 class="commands-title">Игорь Демьяненко</h3>
-                <p lang="en" class="commands-paragraf">Product Designer</p>
-              </li>
-            </div>
-            <div class="command-list">
-              <li>
-                <img
-                  src="./images/comand2.jpg"
-                  alt="Ольга Репина"
-                  width="270"
-                  height="260"
-                />
-                <h3 class="commands-title">Ольга Репина</h3>
-                <p lang="en" class="commands-paragraf">Frontend Developer</p>
-              </li>
-            </div>
-            <div class="command-list">
-              <li>
-                <img
-                  src="./images/comand3.jpg"
-                  alt="Николай Тарасов"
-                  width="270"
-                  height="260"
-                />
-                <h3 class="commands-title">Николай Тарасов</h3>
-                <p lang="en" class="commands-paragraf">Marketing</p>
-              </li>
-            </div>
-            <div class="command-list">
-              <li>
-                <img
-                  src="./images/comand4.jpg"
-                  alt="Михаил Ермаков"
-                  width="270"
-                  height="260"
-                />
-                <h3 class="commands-title">Михаил Ермаков</h3>
-                <p lang="en" class="commands-paragraf">UI Designer</p>
-              </li>
-            </div>
-          </ul>
-        </div>
+      <section class="commands-block section container">
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="list commands-list">
+          <li class="command-item">
+            <img
+              class="img"
+              src="./images/comand1.jpg"
+              alt="Игорь Демьяненко"
+              width="270"
+            />
+            <h3 class="commands-title">Игорь Демьяненко</h3>
+            <p lang="en" class="commands-paragraf">Product Designer</p>
+          </li>
+
+          <li class="command-item">
+            <img
+              class="img"
+              src="./images/comand2.jpg"
+              alt="Ольга Репина"
+              width="270"
+              height="260"
+            />
+            <h3 class="commands-title">Ольга Репина</h3>
+            <p lang="en" class="commands-paragraf">Frontend Developer</p>
+          </li>
+
+          <li class="command-item">
+            <img
+              class="img"
+              src="./images/comand3.jpg"
+              alt="Николай Тарасов"
+              width="270"
+              height="260"
+            />
+            <h3 class="commands-title">Николай Тарасов</h3>
+            <p lang="en" class="commands-paragraf">Marketing</p>
+          </li>
+
+          <li class="command-item">
+            <img
+              class="img"
+              src="./images/comand4.jpg"
+              alt="Михаил Ермаков"
+              width="270"
+              height="260"
+            />
+            <h3 class="commands-title">Михаил Ермаков</h3>
+            <p lang="en" class="commands-paragraf">UI Designer</p>
+          </li>
+        </ul>
       </section>
     </main>
+
     <!--Подвал сайта-->
     <footer class="footer">
       <div class="container footer-section">
