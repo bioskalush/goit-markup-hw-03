@@ -32,7 +32,7 @@ h4,
 h5,
 p,
 ul {
-  margin: 0 auto;
+  margin: 0;
 }
 
 /* *,
@@ -333,6 +333,7 @@ ul {
 }
 .portfolio-buttons-box {
   display: flex;
+  margin-bottom: 50px;
   justify-content: center;
   align-items: center;
 }
@@ -356,14 +357,13 @@ ul {
 }
 
 /* --------------------------Секція портфоліо------------- */
-.portfolio-section {
+.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 .portfolio-marker {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 50px;
 }
 
 .portfolio-list {
