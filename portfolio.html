@@ -7,9 +7,6 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -51,41 +48,40 @@
     </header>
 
     <main>
-      <h1 hidden>Страница портфолио</h1>
-      <!-- Кнопки портфоліо -->
-      <div class="container port-buttons">
-        <ul class="portfolio-buttons-box list">
-          <li class="portfolio-item">
-            <button type="button" class="portfolio-button">
-              <span class="portfolio-button-text">Все</span>
-            </button>
-          </li>
-          <li class="portfolio-item">
-            <button type="button" class="portfolio-button">
-              <span class="portfolio-button-text">Веб-сайты</span>
-            </button>
-          </li>
-          <li class="portfolio-item">
-            <button type="button" class="portfolio-button">
-              <span class="portfolio-button-text">Приложения</span>
-            </button>
-          </li>
-          <li class="portfolio-item">
-            <button type="button" class="portfolio-button">
-              <span class="portfolio-button-text">Дизайн</span>
-            </button>
-          </li>
-          <li class="portfolio-item">
-            <button type="button" class="portfolio-button">
-              <span class="portfolio-button-text">Маркетинг</span>
-            </button>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Портфоліо -->
       <section class="portfolio">
         <div class="container portfolio-section">
+          <h1 hidden>Страница портфолио</h1>
+          <!-- Кнопки портфоліо -->
+          <ul class="portfolio-buttons-box list">
+            <li class="portfolio-item">
+              <button type="button" class="portfolio-button">
+                <span class="portfolio-button-text">Все</span>
+              </button>
+            </li>
+            <li class="portfolio-item">
+              <button type="button" class="portfolio-button">
+                <span class="portfolio-button-text">Веб-сайты</span>
+              </button>
+            </li>
+            <li class="portfolio-item">
+              <button type="button" class="portfolio-button">
+                <span class="portfolio-button-text">Приложения</span>
+              </button>
+            </li>
+            <li class="portfolio-item">
+              <button type="button" class="portfolio-button">
+                <span class="portfolio-button-text">Дизайн</span>
+              </button>
+            </li>
+            <li class="portfolio-item">
+              <button type="button" class="portfolio-button">
+                <span class="portfolio-button-text">Маркетинг</span>
+              </button>
+            </li>
+          </ul>
+
+          <!-- Портфоліо -->
+
           <ul class="list portfolio-marker">
             <li class="portfolio-list">
               <img
@@ -93,8 +89,10 @@
                 alt="Изображение ноутбука"
                 width="370"
               />
-              <h2 class="portfolio-title">Технокряк</h2>
-              <p class="portfolio-paragraf">Веб-сайт</p>
+              <div class="portfolio-box">
+                <h2 class="portfolio-title">Технокряк</h2>
+                <p class="portfolio-paragraf">Веб-сайт</p>
+              </div>
             </li>
             <li class="portfolio-list">
               <img
@@ -102,10 +100,12 @@
                 alt="Постер New Orlean vs Golden Star"
                 width="370"
               />
-              <h2 class="portfolio-title">
-                Постер <span lang="en">New Orlean vs Golden Star</span>
-              </h2>
-              <p class="portfolio-paragraf">Дизайн</p>
+              <div class="portfolio-box">
+                <h2 class="portfolio-title">
+                  Постер <span lang="en">New Orlean vs Golden Star</span>
+                </h2>
+                <p class="portfolio-paragraf">Дизайн</p>
+              </div>
             </li>
             <li class="portfolio-list">
               <img
@@ -113,10 +113,12 @@
                 alt="Логотип ресторану Seafood"
                 width="370"
               />
-              <h2 class="portfolio-title">
-                Ресторан <span lang="en">Seafood</span>
-              </h2>
-              <p class="portfolio-paragraf">Приложение</p>
+              <div class="portfolio-box">
+                <h2 class="portfolio-title">
+                  Ресторан <span lang="en">Seafood</span>
+                </h2>
+                <p class="portfolio-paragraf">Приложение</p>
+              </div>
             </li>
             <li class="portfolio-list">
               <img
@@ -124,10 +126,12 @@
                 alt="Изображение наушников"
                 width="370"
               />
-              <h2 class="portfolio-title">
-                Проект <span lang="eu">Prime</span>
-              </h2>
-              <p class="portfolio-paragraf">Маркетинг</p>
+              <div class="portfolio-box">
+                <h2 class="portfolio-title">
+                  Проект <span lang="eu">Prime</span>
+                </h2>
+                <p class="portfolio-paragraf">Маркетинг</p>
+              </div>
             </li>
             <li class="portfolio-list">
               <img
@@ -135,10 +139,12 @@
                 alt="Изображение коробок"
                 width="370"
               />
-              <h2 class="portfolio-title">
-                Проект <span lang="en">Boxes</span>
-              </h2>
-              <p class="portfolio-paragraf">Приложение</p>
+              <div class="portfolio-box">
+                <h2 class="portfolio-title">
+                  Проект <span lang="en">Boxes</span>
+                </h2>
+                <p class="portfolio-paragraf">Приложение</p>
+              </div>
             </li>
             <li class="portfolio-list">
               <img
@@ -146,10 +152,12 @@
                 alt="Изображение монитора"
                 width="370"
               />
-              <h2 lang="en" class="portfolio-title">
-                Inspiration has no Borders
-              </h2>
-              <p class="portfolio-paragraf">Веб-сайт</p>
+              <div class="portfolio-box">
+                <h2 lang="en" class="portfolio-title">
+                  Inspiration has no Borders
+                </h2>
+                <p class="portfolio-paragraf">Веб-сайт</p>
+              </div>
             </li>
             <li class="portfolio-list">
               <img
@@ -157,10 +165,12 @@
                 alt="Розгорнутая книга"
                 width="370"
               />
-              <h2 class="portfolio-title">
-                Издание <span lang="en">Limited Edition</span>
-              </h2>
-              <p class="portfolio-paragraf">Дизайн</p>
+              <div class="portfolio-box">
+                <h2 class="portfolio-title">
+                  Издание <span lang="en">Limited Edition</span>
+                </h2>
+                <p class="portfolio-paragraf">Дизайн</p>
+              </div>
             </li>
             <li class="portfolio-list">
               <img
@@ -168,8 +178,12 @@
                 alt="Проект LAB"
                 width="370"
               />
-              <h2 class="portfolio-title">Проект <span lang="en">LAB</span></h2>
-              <p class="portfolio-paragraf">Маркетинг</p>
+              <div class="portfolio-box">
+                <h2 class="portfolio-title">
+                  Проект <span lang="en">LAB</span>
+                </h2>
+                <p class="portfolio-paragraf">Маркетинг</p>
+              </div>
             </li>
             <li class="portfolio-list">
               <img
@@ -177,8 +191,10 @@
                 alt="Робота за ноутбуком"
                 width="370"
               />
-              <h2 class="portfolio-title" lang="en">Growing Business</h2>
-              <p class="portfolio-paragraf">Приложение</p>
+              <div class="portfolio-box">
+                <h2 class="portfolio-title" lang="en">Growing Business</h2>
+                <p class="portfolio-paragraf">Приложение</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -187,7 +203,7 @@
 
     <!--Подвал сайта-->
     <footer class="footer">
-      <div class="container footer-section">
+      <div class="container">
         <a href="./index.html" class="footer-logo"
           ><span class="text-web">Web</span
           ><span class="text-studio-footer">Studio</span></a
